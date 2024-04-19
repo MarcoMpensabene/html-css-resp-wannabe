@@ -143,7 +143,7 @@ img {
 
 @media screen and (max-width: 480px) {
     .container {
-        max-width: 100vh;
+        max-width: 100vw;
     }
 
     .row {
@@ -159,6 +159,7 @@ img {
     .steps {
         color: #232946;
         background: #eebbc3;
+        margin-bottom: 0;
     }
 
     .steps .col {
@@ -167,7 +168,8 @@ img {
     }
     .why-us {
         background-color: #222222;
-        height: 100%;
+        padding-top: 3rem;
+        margin-bottom: 0;
 
     }
     .why-us .col-left {
